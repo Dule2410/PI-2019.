@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Osobni podaci</title>
+    <h1>Osobni podaci</h1>
+    <br>
+</head>
+<body>
+<form method="get" action="Obrada.php" enctype="text/plain">
+    <input
+            type="text"
+            name="imeOsobe"
+            maxlength="50"
+            size="10"
+    />
+    Ime
+    <br><br>
+    <input
+            type="text"
+            name="prezimeOsobe"
+            maxlength="50"
+            size="10"
+    />
+    Prezime
+    <br><br>
+    <h3>Idete li u školu?</h3>
+    <input type="radio" name="da" value="DA" /> DA
+    <br>
+    <input type="radio" name="ne" value="NE" /> NE
+    <br><br>
+    <input type="password" name="OIB" maxlength="50" size="20" /> OIB
+    <br><br>
+    <select
+            name="boja">
+        <option
+                value="crvena"
+                selecte
+                d="selected">
+            Crvena
+        </option>
+        <option
+                value="zelena">
+            Zelena
+        </option>
+        <option
+                value="plava">
+            Plava
+        </option>
+        <option
+                value="crna">
+            Crna
+        </option>
+    </select> Boja
+</form>
+</body>
+</html>
