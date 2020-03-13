@@ -1,0 +1,10 @@
+DELIMITER $$
+
+CREATE PROCEDURE Produkti()
+BEGIN
+	SELECT productName, buyPrice
+    FROM products
+    WHERE quantityInStock < 5000;
+END $$
+
+DELIMITER ;
